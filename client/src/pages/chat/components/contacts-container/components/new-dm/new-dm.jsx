@@ -73,7 +73,7 @@ const NewDM = () => {
             Please select a contact
           </DialogDescription>
           <DialogHeader>
-            <DialogTitle>Select a contact from Syncronus</DialogTitle>
+            <DialogTitle>Select a contact from NexusChat</DialogTitle>
           </DialogHeader>
           <div>
             <Input

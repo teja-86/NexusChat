@@ -121,7 +121,7 @@ const MessageBar = () => {
         <input
           type="text"
           className="flex-1 p-5 bg-transparent rounded-md focus:border-none focus:outline-none"
-          placeholder="Enter message"
+          placeholder="Enter message here......"
           value={message}
           onChange={handleMessageChange}
         />
