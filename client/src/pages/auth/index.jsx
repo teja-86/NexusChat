@@ -1,5 +1,5 @@
-import Background from "../../assets/login2.png";
-import Victory from "../../assets/victory.svg";
+// import Background from "../../assets/login2.png";
+// import Victory from "../../assets/victory.svg";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -86,15 +86,15 @@ const Auth = () => {
 
   return (
     <div className="h-[100vh] w-[100vw] flex items-center justify-center">
-      <div className="h-[80vh] bg-white  border-2 border-white  text-opacity-90 shadow-2xl w-[80vw] md:w-[90vw] lg:w-[70vw] xl:w-[60vw] rounded-3xl grid xl:grid-cols-2">
-        <div className="flex flex-col gap-10 items-center justify-center">
+      <div className="h-[98vh] bg-white border-2 border-white  text-opacity-90 shadow-2xl w-[100vw] px-14 md:w-[100vw] lg:w-[80vw] xl:w-[60vw] rounded-3xl grid xl:grid-cols-2 pb-5 pt-5" >
+        <div className="flex flex-col gap-10 items-center justify-center -mt-10">
           <div className="flex  items-center justify-center flex-col">
-            <div className="flex  items-center justify-center">
-              <h1 className="text-5xl md:text-6xl font-bold">Welcome</h1>
-              <img src={Victory} className="h-[100px]" />
+            <div className="flex items-center justify-center flex-row mt-6 ml-6 leading-tight">
+              <h1 className="text-3xl md:text-5xl font-bold ">Welcome to <span className="text-fuchsia-800"> NexusChat </span></h1>
+              {/* <img src={Victory} className="h-[100px]" /> */}
             </div>
-            <p className="font-medium text-center">
-              Fill in the details to get started with the best chat app!
+            <p className="font-medium text-center mt-6">
+              Fill in the form details to get started with the best chat experience app!
             </p>
           </div>
           <div className="flex items-center justify-center w-full ">
@@ -161,8 +161,8 @@ const Auth = () => {
             </Tabs>
           </div>
         </div>
-        <div className="hidden xl:flex justify-center items-center ">
-          <img src={Background} className="h-[700px] " />
+        <div className="hidden xl:flex justify-center mt-40 rounded-md items-center w-80 ml-8 h-[200px] overflow-hidden shadow-lg">
+          <img src={'https://cdn.dribbble.com/userupload/7937179/file/original-f9bac0b1a04d2b00ea0c49f357e26245.jpg?resize=1504x1128'} className="h-[350px] " />
         </div>
 
         {/* Login Signup COmponent */}

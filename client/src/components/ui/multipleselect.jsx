@@ -23,7 +23,7 @@ const CommandEmpty = forwardRef(({ className, ...props }, forwardedRef) => {
     <div
       ref={forwardedRef}
       className={cn("py-6 text-center text-sm", className)}
-      cmdk-empty=""
+      // cmdk-empty=""
       role="presentation"
       {...props}
     />
@@ -296,7 +296,7 @@ const MultipleSelector = React.forwardRef(
                     }}
                     onClick={() => handleUnselect(option)}
                   >
-                    <X className="h-4 w-4 text-white hover:text-purple-500" />
+                    <X className="h-4 w-4 text-white hover:text-fuchsia-800" />
                   </button>
                 </Badge>
               );

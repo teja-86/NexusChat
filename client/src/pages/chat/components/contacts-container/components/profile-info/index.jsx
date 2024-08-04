@@ -67,7 +67,7 @@ const ProfileInfo = () => {
           <Tooltip>
             <TooltipTrigger>
               <FiEdit2
-                className="text-purple-500 text-xl font-medium"
+                className="text-[#32bcf7] text-xl font-medium"
                 onClick={() => navigate("/profile")}
               />
             </TooltipTrigger>

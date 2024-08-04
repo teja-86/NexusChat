@@ -1,7 +1,8 @@
+import logo from './logo.png';
 const Logo = () => {
   return (
     <div className="flex p-5  justify-start items-center gap-2">
-      <svg
+      {/* <svg
         id="logo-38"
         width="78"
         height="32"
@@ -25,7 +26,8 @@ const Logo = () => {
           className="ccompli2"
           fill="#a16ee8"
         ></path>{" "}
-      </svg>
+      </svg> */}
+      <img src= {logo} alt=""  className="h-12 rounded-md"/>
       <span className="text-3xl font-semibold ">NexusChat</span>
     </div>
   );
