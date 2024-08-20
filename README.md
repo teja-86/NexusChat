@@ -4,6 +4,15 @@
 
 Welcome to the NexusChat Application, a robust and scalable chat platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and powered by Socket.io for real-time communication. This application enables users to engage in dynamic, real-time conversations with support for private messages, group chats, and user presence notifications.
 
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [API Endpoints](#api-endpoints)
+- [Running Tests](#running-tests)
+- [Contributing](#contributing)
+  
 ## Features
 
 - **Frontend:** Built with React
@@ -111,3 +120,14 @@ To run tests, ensure you are in the `client` or `server` directory and use:
 
 ```sh
 npm test
+```
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeature`.
+3. Make your changes and commit them: `git commit -m 'Add Your Feature'`.
+4. Push to the branch: `git push origin feature/YourFeature`.
+5. Open a Pull Request.
